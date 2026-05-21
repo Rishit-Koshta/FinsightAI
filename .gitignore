@@ -1,0 +1,85 @@
+# =========================
+# DEPENDENCIES
+# =========================
+node_modules/
+.pnp
+.pnp.js
+
+# =========================
+# BUILD OUTPUTS
+# =========================
+dist/
+dist-ssr/
+build/
+target/
+out/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+# Allow target/build directories inside src folder if they exist
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =========================
+# ENVIRONMENT & SECRETS
+# =========================
+.env
+*.local
+application.properties
+application.yml
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# IDEs & EDITORS
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+*.code-workspace
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio / Misc Editors
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# OS / SYSTEM / MISC
+# =========================
+.DS_Store
+Thumbs.db
+HELP.md
