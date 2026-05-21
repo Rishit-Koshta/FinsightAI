@@ -101,7 +101,7 @@ Make sure you have installed:
 
 - Java 17+
 - Maven
-- PostgreSQL / MySQL
+- MongoDB
 - LM Studio
 - Git
 
