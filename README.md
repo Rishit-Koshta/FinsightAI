@@ -37,7 +37,7 @@ Built with **Spring Boot**, **vector embeddings**, and **local AI inference via 
 - Vector Search
 
 ### Database / Storage
-- PostgreSQL / MySQL *(configure as needed)*
+- MongoDB
 
 ### Tools
 - Maven
